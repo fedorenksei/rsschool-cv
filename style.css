@@ -12,15 +12,24 @@ body {
 header {
     height: 50px;
     width: 100vw;
-    background-color: aquamarine;
+    background-color: lightblue;
+}
+
+nav ul,
+#skills ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 main {
     flex-grow: 1;
+    max-width: 700px;
 
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    
+    background-color: rgb(212, 226, 238);
 }
 
 .wrapper-with-avatar{
@@ -28,8 +37,6 @@ main {
     flex-wrap: wrap-reverse;
     justify-content: center;
     gap: 15px 30px;
-
-    background-color: aliceblue;
 }
 
 .avatar {
@@ -37,13 +44,16 @@ main {
     max-height: 305.02px;
 }
 
-.all-info {
-    flex-grow: 1;
-    background-color: antiquewhite;
+footer {
+    min-height: 50px;
+    width: 100vw;
+    background-color: rgb(211, 202, 202);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer {
-    height: 50px;
-    width: 100vw;
-    background-color: gray;
+.rss-logo{
+    height: 30px;
 }
