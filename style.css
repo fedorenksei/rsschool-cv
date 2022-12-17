@@ -6,13 +6,13 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-color: azure;
+    background-color: white;
 }
 
 header {
     height: 50px;
     width: 100vw;
-    background-color: lightblue;
+    background-color: rgb(221, 232, 240);
 }
 
 nav ul,
@@ -28,8 +28,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    
-    background-color: rgb(212, 226, 238);
 }
 
 .wrapper-with-avatar{
