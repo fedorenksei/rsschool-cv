@@ -6,29 +6,32 @@ pre {
 
 h2 {
     margin: 40px 0px 20px 10px;
+    font-variant: small-caps;
+    font-weight: normal;
 }
 
 h3 {
     margin-top: 20px;
+    font-weight: normal;
 }
 
 #aleksei-fedorenko {
     margin: 30px 5px 5px 10px;
 
-    font-weight: 100;
+    font-weight: normal;
 }
 
 #frontend-developer {
     margin-top: 5px;
     margin-bottom: 5px;
 
-    font-weight: 100;
+    font-weight: normal;
     font-style: italic;
+    font-variant: normal;
 }
 
 /* Contacts header */
-.near-avatar
-h2 {
+.near-avatar h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -37,6 +40,11 @@ h2 {
     margin: 0px;
 }
 
-#contacts li {
+#contacts li,
+#languages li {
     margin-top: 5px;
+}
+
+.duty {
+    max-width: 400px;
 }
