@@ -9,6 +9,26 @@ body {
     background-color: white;
 }
 
+h1 {
+    width: fit-content;
+    margin: 40px auto 20px;
+}
+
+#aleksei-fedorenko {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#frontend-developer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    width: fit-content;
+    margin: 40px auto 20px;
+}
+
 header {
     height: 50px;
     width: 100vw;
@@ -25,16 +45,18 @@ main {
     flex-grow: 1;
     max-width: 700px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    background-color: lightcyan;
 }
 
 .wrapper-with-avatar{
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: center;
-    gap: 15px 30px;
+    justify-content: space-between;
+    gap: 10px 0px;
+}
+
+.near-avatar {
+    flex-grow: 1;
 }
 
 .avatar {
