@@ -1,0 +1,42 @@
+p, 
+h3,
+pre {
+    margin: 5px 5px 5px 10px;
+}
+
+h2 {
+    margin: 40px 0px 20px 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#aleksei-fedorenko {
+    margin: 30px 5px 5px 10px;
+
+    font-weight: 100;
+}
+
+#frontend-developer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Contacts header */
+.near-avatar
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#contacts ul {
+    margin: 0px;
+}
+
+#contacts li {
+    margin-top: 5px;
+}
