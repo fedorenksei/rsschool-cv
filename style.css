@@ -14,7 +14,7 @@ body {
 p, 
 h3,
 pre {
-    margin: 0px 5px 0px 10px;
+    margin: 5px 5px 5px 10px;
 }
 
 h1 {
@@ -85,6 +85,22 @@ h2 {
 .avatar {
     max-width: 300px;
     max-height: 305.02px;
+}
+
+.job {
+    margin-top: 20px;
+}
+
+.position-and-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.time-period {
+    font-style: italic;
+    margin-right: 10px;
 }
 
 footer {
