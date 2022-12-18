@@ -37,6 +37,10 @@ footer {
     align-items: center;
 }
 
+footer * {
+    margin: 0;
+}
+
 .rss-logo{
     height: 30px;
 }
