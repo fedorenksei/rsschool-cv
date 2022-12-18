@@ -44,3 +44,10 @@ footer * {
 .rss-logo{
     height: 30px;
 }
+
+.code {
+    border-radius: 3px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+}
